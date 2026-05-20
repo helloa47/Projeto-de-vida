@@ -61,9 +61,23 @@ body {
 }
 
 
-.ativo{
+.botao.ativo{
     background-color: var(--botao-ativo);
     
+}
+
+.abastextos {
+    backgroundcolor:var(--botao-ativo);
+    padding: 40 px;
+    border-radius: 0 0 40px 40px;
+}
+
+.aba-conteudo.ativo{
+    display: block;
+}
+
+.abaconteudo{
+    display: none;
 }
 @media screen and (min-width: 768px) {
     .botoes {
